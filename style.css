@@ -1338,3 +1338,34 @@ footer p {
 .certificate-card:hover {
     box-shadow: 0 0 35px rgba(0, 229, 255, .25);
 }
+
+/* Light Mode */
+
+body.light-mode {
+    background: #f5f7fb;
+    color: #111827;
+}
+
+body.light-mode .section,
+body.light-mode header,
+body.light-mode footer {
+    background: #ffffff;
+}
+
+body.light-mode .project-card,
+body.light-mode .skill-box,
+body.light-mode .stat-card,
+body.light-mode .certificate-card,
+body.light-mode .timeline-content,
+body.light-mode .contact-card,
+body.light-mode .contact-form {
+    background: #ffffff;
+    color: #111827;
+    border: 1px solid #d1d5db;
+}
+
+body.light-mode p,
+body.light-mode h3,
+body.light-mode h4 {
+    color: #111827;
+}
