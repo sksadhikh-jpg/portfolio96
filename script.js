@@ -319,3 +319,12 @@ console.log(
     "%cWelcome to Shaik Ahmad Sadhikh Portfolio 🚀",
     "color:#00e5ff;font-size:18px;font-weight:bold;"
 );
+const cursor = document.querySelector(".cursor");
+
+document.addEventListener("mousemove", (e) => {
+
+    cursor.style.left = e.clientX + "px";
+
+    cursor.style.top = e.clientY + "px";
+
+});
